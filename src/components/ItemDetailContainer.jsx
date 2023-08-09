@@ -1,10 +1,9 @@
 import React from 'react'
-import ItemList from './ItemList';
-import { useParams } from 'react-router-dom';
+import ItemDetail from './ItemDetail';
 
-const ItemListContainer = () => {
-    const {category} = useParams()
 
+
+const ItemDetailContainer = () => {
     const datos = [
     {
         id: 1,
@@ -59,17 +58,16 @@ getDatos
         console.log(error)
     })
 
+
+
     return (
         <>
-            <div style={{display:'flex', justifyContent:'center', margin:'20px'}}>
-                <h1>NUESTROS PRODUCTOS</h1>
-            </div>
-            <div style={{display:'flex', flexDirection:'row', justifyContent:'flex-start',  flexWrap:'wrap', padding: '50px', width:'100%'}}>
-                <ItemList datos={datos} category={category}/>
+            <div style={{display:'flex', flexDirection:'row', justifyContent:'center',  flexWrap:'wrap', padding: '50px', width:'100%'}}>
+                <ItemDetail datos={datos}/>
             </div>
         </>
 
     )
 }
 
-export default ItemListContainer
+export default ItemDetailContainer
