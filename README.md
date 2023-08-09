@@ -19,5 +19,7 @@ En el mismo, se implementan recursos como:
 
 
 Adjunto gif del funcionamiento de la pagina.
+.
+![netcomgif](https://github.com/agustinhahn/PreEntrega2Hahn-react/assets/125411798/eaf948c4-730e-42a6-a9da-4361ca04e0af)
 
 
