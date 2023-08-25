@@ -16,7 +16,17 @@ En el mismo, se implementan recursos como:
 - Extraccion de elementos de material-ui
 - Logica basica en contador
 - Metodos de array (filter,map) sobre un array contenedor de datos
+<<<<<<< HEAD
 - Uso de Context
 - Loaders
 - Tablas
 - Estilos desde CSS en linea y desde archivo aislado
+=======
+
+
+Adjunto gif del funcionamiento de la pagina.
+.
+![netcomgif](https://github.com/agustinhahn/PreEntrega2Hahn-react/assets/125411798/eaf948c4-730e-42a6-a9da-4361ca04e0af)
+
+
+>>>>>>> ed6563c80548cb4376ddf330960a9170c20596f9

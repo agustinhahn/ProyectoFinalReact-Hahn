@@ -10,8 +10,8 @@ import CartContext from './context/CartContext'
 
 function App() {
 
-  return (
 
+  return (
     <BrowserRouter>
       <CartContext>
         <Navbar />
@@ -29,3 +29,4 @@ function App() {
   }
 
 export default App
+
