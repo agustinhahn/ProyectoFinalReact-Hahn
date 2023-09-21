@@ -16,7 +16,7 @@ import { doc, getDoc, getFirestore } from 'firebase/firestore'
 const ItemDetail = ({datos}) => {
 
   const {id} = useParams()
-
+  
 
   const [producto, setProducto] = useState([])
 
@@ -31,15 +31,13 @@ const ItemDetail = ({datos}) => {
     })
 }, [])
 
-
   const {cart, setCart} = useContext(ContextCart)
   const {contador, setContador} = useContext(ContextCart)
 
   const filterProducts = datos.filter((prod) => prod.id == id);
-
   const comprobarBoton = () =>{
     if(contador>0){
-          const agregarNuevoProd = cart.find(function(product){return product.id === datos.id})
+          const agregarNuevoProd = cart.find((prod) => prod.id === filterProducts[0].id)
           if(agregarNuevoProd === undefined){
             agregarCarrito()
           }
@@ -52,6 +50,7 @@ const ItemDetail = ({datos}) => {
       agregarCantidadcount()
     }
     }
+
 
   const agregarCarrito = () =>{
     const cantidadElegida = contador

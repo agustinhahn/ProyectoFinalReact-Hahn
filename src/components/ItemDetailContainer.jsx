@@ -8,6 +8,10 @@ const ItemDetailContainer = () => {
 
     const [products, setProducts] = useState([])
 
+    function timeProducts(){
+        console.log(products)
+    }
+
     useEffect(()=>{
         const db = getFirestore()
         const itemCollection = collection(db, 'productosNetcom')
@@ -17,6 +21,7 @@ const ItemDetailContainer = () => {
             setProducts(docs)
         })
     }, [])
+
 
     return (
         <>
