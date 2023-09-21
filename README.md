@@ -2,6 +2,8 @@
 ## Comision: 47120
 ### Alumno: Agustin Hahn
 
+### ACTUALMENTE EN PAUSA. resuelto inconveniente con el carrito. quedan afinar detalles de presentacion de venta, footer y un poco de estetica.
+
 
 **Breve detalle:** 
 El proyecto consiste en un E-commerce de venta de equipamientos de redes (router/switch por ejemplo).
