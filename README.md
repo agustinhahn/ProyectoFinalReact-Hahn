@@ -22,11 +22,9 @@ En el mismo, se implementan recursos como:
 - Tablas
 - Estilos desde CSS en linea y desde archivo aislado
 =======
+![pfreact](https://github.com/agustinhahn/ProyectoFinalReact-Hahn/assets/125411798/1834ec62-3388-4343-ab21-46a86536d126)
 
 
 Adjunto gif del funcionamiento de la pagina.
-.
-![netcomgif](https://github.com/agustinhahn/PreEntrega2Hahn-react/assets/125411798/eaf948c4-730e-42a6-a9da-4361ca04e0af)
 
 
->>>>>>> ed6563c80548cb4376ddf330960a9170c20596f9
